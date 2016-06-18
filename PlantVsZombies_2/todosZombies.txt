@@ -1,0 +1,5 @@
+1	Generico	60	50	Zombie01
+2	Dançarino	60	50	Zombie02
+3	Catapulta	60	50	Zombie03
+4	CaboElástico	60	50	Zombie04
+5	Devorador	60	50	Zombie05

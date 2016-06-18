@@ -1,0 +1,7 @@
+3 cata1 60 50 TucTuc
+3 cata2 40 30 TucTuc
+3 cata3 40 30 TucTuc
+3 cata4 40 30 TucTuc
+3 cata5 40 30 TucTuc
+3 cata6 40 30 TucTuc
+3 cata7 40 30 TucTuc

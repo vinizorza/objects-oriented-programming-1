@@ -1,0 +1,4 @@
+1	Dispara	30	70	Planta01
+4	Dispara	30	70	Planta02
+4	Nois	30	70	Planta03
+

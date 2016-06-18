@@ -1,0 +1,7 @@
+1	DisparaErva	30	70	Planta01
+2	Girassol	30	70	Planta02
+3	Cereja-Bomba	23	77	Planta03
+4	NozObstaculo	55	80	Planta04
+5	BatataMina	55	80	Planta05
+6	Carnívora	55	80	Planta06
+

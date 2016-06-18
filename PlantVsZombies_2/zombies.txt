@@ -1,0 +1,2 @@
+1	Tark	60	50	TucTuc
+1	Lan	40	30	TucTuc
