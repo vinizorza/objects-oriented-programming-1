@@ -166,10 +166,14 @@ public class Login extends javax.swing.JFrame {
         this.setNomeEntrada(usuarioTextField.getText());
         this.setSenhaEntrada(toString(senhaPasswordField.getPassword()));
         if( ValidaUsuario.ValidaUsuario(nomeEntrada, senhaEntrada) ){
-            JOptionPane.showMessageDialog(null, "Encontrado");
+            JOptionPane.showMessageDialog(null, BoasVindas.BoasVindas());
+            Home home = new Home(nomeEntrada, senhaEntrada);
+            home.setVisible(true);
+            this.dispose();
         }else{
-            JOptionPane.showMessageDialog(null, "Não Encontrado");
+            JOptionPane.showMessageDialog(null, "Erro de Usuário/Senha");
         }
+        
     }//GEN-LAST:event_entrarButtonActionPerformed
 
     /**

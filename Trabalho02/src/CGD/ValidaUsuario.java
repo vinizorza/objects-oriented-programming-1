@@ -24,6 +24,12 @@ import java.util.List;
 
 public class ValidaUsuario {   
     
+    /**
+     * 
+     * @param nomeEntrada
+     * @param senhaEntrada 
+     * @return Esse programa recebe do MudaMongoDao a collection a ser usada. Caso não haja recebe nulo.
+     */
     public static boolean ValidaUsuario(String nomeEntrada, String senhaEntrada){
         int count;
         DBCollection collections = MudaMongoDao.MudaMongoDao();

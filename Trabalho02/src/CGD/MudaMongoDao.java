@@ -29,9 +29,6 @@ public class MudaMongoDao {
             db = m.getDB("MudasSchaefer");
             if (db.collectionExists("usuarios")) {
                 colecaoUsuario = db.getCollection("usuarios");
-//                List<String> dbsas = m.getDatabaseNames();
-//                System.out.println(colecaoUsuario.count());
-//                System.out.println(dbsas);
                 return colecaoUsuario;
             }else{
                 System.out.println("Não existe collection"); 
@@ -43,6 +40,8 @@ public class MudaMongoDao {
         }
         return null;
     }
+    
+    
 }
 
 /*

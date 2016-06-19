@@ -17,7 +17,7 @@ package CDP;
 
 
 public class MudasCafe extends MongoObject{
-
+    
     private String tipo;
     private String dataPlantio;
     private String dataEstimada;

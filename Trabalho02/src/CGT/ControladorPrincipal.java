@@ -20,7 +20,8 @@ import java.net.UnknownHostException;
 
 public class ControladorPrincipal {
     public static void main(String[] args) throws UnknownHostException {
-        new Login().setVisible(true);
+        Login tela = new Login();
+        tela.setVisible(true);
         //MudaMongoDao mudaMongoDao = new MudaMongoDao();
         //new TestFrame();
         
